@@ -14,7 +14,7 @@ const me = {
   lastName: 'Kahn',
   hasSiblings: true,
   shoeCount: 3,
-  favThreeFoods:[Mochi, Chipotle, Corndgs]
+  favThreeFoods:['Mochi', 'Chipotle', 'Corndgs']
 };
 console.log('A little about me:', me);
 
@@ -24,7 +24,7 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
-let fullName =me.firstName + me.lastName;
+let fullName = me.firstName + me.lastName;
 console.log(fullName)
 
 
